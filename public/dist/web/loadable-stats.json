@@ -1,0 +1,609 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "35b432834ba9a15d30dd",
+  "publicPath": "/dist/web/",
+  "outputPath": "/Users/ctsuser1/Documents/documents/Jagdish/harmony/server-side-rendering/public/dist/web",
+  "assetsByChunkName": {
+    "Y-file": "Y-file.js",
+    "letters-A": [
+      "letters-A.css",
+      "letters-A.js"
+    ],
+    "letters-A-css": [
+      "letters-A-css.css",
+      "letters-A-css.js"
+    ],
+    "letters-B": "letters-B.js",
+    "letters-C": "letters-C.js",
+    "letters-D": "letters-D.js",
+    "letters-E": "letters-E.js",
+    "letters-F": "letters-F.js",
+    "letters-G": "letters-G.js",
+    "letters-Z-file": "letters-Z-file.js",
+    "main": [
+      "main.css",
+      "main.js"
+    ],
+    "moment": "moment.js",
+    "vendors~letters-A~letters-B~moment": "vendors~letters-A~letters-B~moment.js"
+  },
+  "assets": [
+    {
+      "name": "Y-file.js",
+      "size": 579,
+      "chunks": [
+        "Y-file"
+      ],
+      "chunkNames": [
+        "Y-file"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-A-css.css",
+      "size": 13,
+      "chunks": [
+        "letters-A-css"
+      ],
+      "chunkNames": [
+        "letters-A-css"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-A-css.js",
+      "size": 474,
+      "chunks": [
+        "letters-A-css"
+      ],
+      "chunkNames": [
+        "letters-A-css"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-A.css",
+      "size": 13,
+      "chunks": [
+        "letters-A"
+      ],
+      "chunkNames": [
+        "letters-A"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-A.js",
+      "size": 17778,
+      "chunks": [
+        "letters-A"
+      ],
+      "chunkNames": [
+        "letters-A"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-B.js",
+      "size": 17139,
+      "chunks": [
+        "letters-B"
+      ],
+      "chunkNames": [
+        "letters-B"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-C.js",
+      "size": 597,
+      "chunks": [
+        "letters-C"
+      ],
+      "chunkNames": [
+        "letters-C"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-D.js",
+      "size": 597,
+      "chunks": [
+        "letters-D"
+      ],
+      "chunkNames": [
+        "letters-D"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-E.js",
+      "size": 597,
+      "chunks": [
+        "letters-E"
+      ],
+      "chunkNames": [
+        "letters-E"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-F.js",
+      "size": 597,
+      "chunks": [
+        "letters-F"
+      ],
+      "chunkNames": [
+        "letters-F"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-G.js",
+      "size": 1066,
+      "chunks": [
+        "letters-G"
+      ],
+      "chunkNames": [
+        "letters-G"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "letters-Z-file.js",
+      "size": 627,
+      "chunks": [
+        "letters-Z-file"
+      ],
+      "chunkNames": [
+        "letters-Z-file"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.css",
+      "size": 16,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.js",
+      "size": 1962823,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "moment.js",
+      "size": 16179,
+      "chunks": [
+        "moment"
+      ],
+      "chunkNames": [
+        "moment"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "vendors~letters-A~letters-B~moment.js",
+      "size": 724120,
+      "chunks": [
+        "vendors~letters-A~letters-B~moment"
+      ],
+      "chunkNames": [
+        "vendors~letters-A~letters-B~moment"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {
+        "preload": [
+          {
+            "name": "letters-C",
+            "chunks": [
+              "letters-C"
+            ],
+            "assets": [
+              "letters-C.js"
+            ]
+          }
+        ],
+        "prefetch": [
+          {
+            "name": "letters-D",
+            "chunks": [
+              "letters-D"
+            ],
+            "assets": [
+              "letters-D.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "preload": [
+          "letters-C.js"
+        ],
+        "prefetch": [
+          "letters-D.js"
+        ]
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js"
+      ],
+      "children": {
+        "preload": [
+          {
+            "name": "letters-C",
+            "chunks": [
+              "letters-C"
+            ],
+            "assets": [
+              "letters-C.js"
+            ]
+          }
+        ],
+        "prefetch": [
+          {
+            "name": "letters-D",
+            "chunks": [
+              "letters-D"
+            ],
+            "assets": [
+              "letters-D.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "preload": [
+          "letters-C.js"
+        ],
+        "prefetch": [
+          "letters-D.js"
+        ]
+      }
+    },
+    "letters-A": {
+      "chunks": [
+        "vendors~letters-A~letters-B~moment",
+        "letters-A"
+      ],
+      "assets": [
+        "vendors~letters-A~letters-B~moment.js",
+        "letters-A.css",
+        "letters-A.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-B": {
+      "chunks": [
+        "vendors~letters-A~letters-B~moment",
+        "letters-B"
+      ],
+      "assets": [
+        "vendors~letters-A~letters-B~moment.js",
+        "letters-B.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-C": {
+      "chunks": [
+        "letters-C"
+      ],
+      "assets": [
+        "letters-C.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-D": {
+      "chunks": [
+        "letters-D"
+      ],
+      "assets": [
+        "letters-D.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-E": {
+      "chunks": [
+        "letters-E"
+      ],
+      "assets": [
+        "letters-E.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-G": {
+      "chunks": [
+        "letters-G"
+      ],
+      "assets": [
+        "letters-G.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "moment": {
+      "chunks": [
+        "vendors~letters-A~letters-B~moment",
+        "moment"
+      ],
+      "assets": [
+        "vendors~letters-A~letters-B~moment.js",
+        "moment.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-A-css": {
+      "chunks": [
+        "letters-A-css"
+      ],
+      "assets": [
+        "letters-A-css.css",
+        "letters-A-css.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-A-js": {
+      "chunks": [
+        "vendors~letters-A~letters-B~moment",
+        "letters-A"
+      ],
+      "assets": [
+        "vendors~letters-A~letters-B~moment.js",
+        "letters-A.css",
+        "letters-A.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-B-js": {
+      "chunks": [
+        "vendors~letters-A~letters-B~moment",
+        "letters-B"
+      ],
+      "assets": [
+        "vendors~letters-A~letters-B~moment.js",
+        "letters-B.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-C-js": {
+      "chunks": [
+        "letters-C"
+      ],
+      "assets": [
+        "letters-C.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-D-js": {
+      "chunks": [
+        "letters-D"
+      ],
+      "assets": [
+        "letters-D.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-E-js": {
+      "chunks": [
+        "letters-E"
+      ],
+      "assets": [
+        "letters-E.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-F": {
+      "chunks": [
+        "letters-F"
+      ],
+      "assets": [
+        "letters-F.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-F-js": {
+      "chunks": [
+        "letters-F"
+      ],
+      "assets": [
+        "letters-F.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-G-js": {
+      "chunks": [
+        "letters-G"
+      ],
+      "assets": [
+        "letters-G.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-Z-file": {
+      "chunks": [
+        "letters-Z-file"
+      ],
+      "assets": [
+        "letters-Z-file.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-Z-file-js": {
+      "chunks": [
+        "letters-Z-file"
+      ],
+      "assets": [
+        "letters-Z-file.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Y-file": {
+      "chunks": [
+        "Y-file"
+      ],
+      "assets": [
+        "Y-file.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/dist/web/",
+      "outputPath": "/Users/ctsuser1/Documents/documents/Jagdish/harmony/server-side-rendering/public/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/client/letters/A.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/dist/web/",
+      "outputPath": "/Users/ctsuser1/Documents/documents/Jagdish/harmony/server-side-rendering/public/dist/web",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/client/main.css"
+    }
+  ]
+}
