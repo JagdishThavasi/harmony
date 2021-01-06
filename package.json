@@ -19,7 +19,7 @@
     "@loadable/component": "^5.10.3",
     "@loadable/server": "^5.10.3",
     "@loadable/webpack-plugin": "^5.7.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.6.0",
